@@ -34,6 +34,6 @@ void df_pause (void);
 void df_previous(void);
 
 UART_HandleTypeDef huart4;
-uint8_t cmdFormat[10] = {};
+uint8_t cmdFormat[10];
 
 #endif /* INC_DF_PLAYER_H_ */
